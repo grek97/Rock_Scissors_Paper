@@ -27,20 +27,7 @@ loop do
   puts "Chuk выбрал:\t #{arr[chuk_choice]}"
   puts "Gek выбрал:\t #{arr[gek_choice]}"
   puts
-  
-  chuk_choice = nil
-  gek_choice  = nil
-  loop do
-    if chuk_choice > 3 && chuk_choice < 0
-      puts 'Выберите 1 2 3'
-      chuk_choice
-    
-    elsif gek_choice > 3 && gek_choice < 0
-      puts 'Выберите 1 2 3'
-      gek_choice
-    else 
-      break
-  end
+      
   if chuk_choice == gek_choice
     puts "\t\t\tНИЧЬЯ"
 
